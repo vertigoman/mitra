@@ -1,0 +1,193 @@
+.mycontainer{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.details .form-group label{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.ui-menu .ui-menu-item a{
+    font-size:8px;
+}
+
+hr{
+    margin-top: 0px !important;
+}
+
+.input-xs {
+    height: 22px !important;
+    padding: 2px 5px !important;
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+}
+
+.error-textfield{
+    border : 1px red solid;
+}
+
+.textarea-fixed{ 
+    width: 100%; 
+    min-width:100%;
+    max-width:100%; 
+
+    height:60px; 
+    min-height:60px;  
+    max-height:60px;
+
+    padding: 2px 5px !important;
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+}
+.center-col{
+    margin:0 auto !important; float: none !important;
+}
+.unweight{
+    font-weight: normal;
+}
+
+.padbottom{
+    margin-bottom: 100px;
+}
+
+.p-elps{
+    max-width: 100%;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.padbottom-sm{
+    margin-bottom: 20px;
+}
+
+.my-no-margin-topdown{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.borderless td, .borderless th {
+    border: none !important;
+}
+
+a{color: #972928 !important;}
+a:hover{text-decoration: none !important; color: #ce7024 !important;}
+
+.my-no-radius{
+    border-radius: 0px 0px 0px 0px !important;
+}
+
+.my-no-hover{
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.my-content-image{
+    width: 100% !important; 
+    height: 120px !important;
+    background-size: cover !important;
+    object-fit: cover !important;
+    -o-object-fit: cover !important;
+}
+
+.my-image-thumbnail-biz{
+    width: 100% !important; 
+    height: 40px !important;
+    background-size: cover !important;
+    object-fit: cover !important;
+    -o-object-fit: cover !important;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100% !important; 
+    height: 350px !important;
+    background-size: cover !important;
+    object-fit: cover !important;
+    -o-object-fit: cover !important;
+}
+
+.col-lg-4{
+    margin-bottom: 20px;
+}
+
+.myhead{
+    height: 140px;
+}
+
+.my-bg-white{
+    background-color: #fff !important;
+}
+
+.my-bg-red{
+
+    background-color: #972928 !important;
+}
+
+.my-txt-red{
+    color: #972928 !important;
+}
+
+.my-bg-grey{
+    background-color: #f8f8f8 !important;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.myseparator{
+    height: 7px;
+    width: 100%;
+}
+
+.mycard-huge{
+    -webkit-box-shadow: 0px 0px 28px -11px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: 0px 0px 28px -11px rgba(0,0,0,0.75) !important;
+    box-shadow: 0px 0px 28px -11px rgba(0,0,0,0.75) !important;
+}
+
+.mycard-small{
+    -webkit-box-shadow: 0px 0px 28px -15px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: 0px 0px 28px -15px rgba(0,0,0,0.75) !important;
+    box-shadow: 0px 0px 28px -15px rgba(0,0,0,0.75) !important;
+}
+
+.my-ul-footer{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.my-ul-footer li{
+    margin-bottom: 6px;
+}
+
+.myfooter h5{
+    padding-top: 10px;
+}
+
+@media ( min-width: 768px ) {
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 1px solid #DDD;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+
+    .mysmallfont{font-size: 12px !important;}
+    @media screen and (min-width:768px){.mypaneldock{margin-top: 40px !important; margin-bottom: 40px !important}
